@@ -1,0 +1,10 @@
+# Logfile created on 2016-09-25 20:40:49 +0800 by logger.rb/54362
+I, [2016-09-25T20:59:44.527826 #15427]  INFO -- : initialize MyRack
+I, [2016-09-25T20:59:46.915796 #15427]  INFO -- : RequestController: initialize
+I, [2016-09-25T20:59:46.915854 #15427]  INFO -- : Route: initialize
+I, [2016-09-25T20:59:46.916216 #15427]  INFO -- : Custom: initialize
+I, [2016-09-25T20:59:46.916260 #15427]  INFO -- : Response: initialize
+I, [2016-09-25T21:02:01.360178 #15427]  INFO -- : RequestController: initialize
+I, [2016-09-25T21:02:01.360227 #15427]  INFO -- : Route: initialize
+I, [2016-09-25T21:02:01.360298 #15427]  INFO -- : Custom: initialize
+I, [2016-09-25T21:02:01.360321 #15427]  INFO -- : Response: initialize
