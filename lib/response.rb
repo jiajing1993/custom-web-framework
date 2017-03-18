@@ -1,8 +1,10 @@
+$logger.info("Required: #{File.basename(__FILE__)}")
+
 class Response
   attr_accessor :status_code, :headers, :body
 
   def initialize
-    MyRackApplication.logger.info("#{self.class}: initialize")
+    $logger.info("Initializing: #{Module.nesting.first}")
     @headers = {}
   end
 

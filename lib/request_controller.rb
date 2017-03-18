@@ -1,6 +1,11 @@
+$logger.info("Required: #{File.basename(__FILE__)}")
+
 class RequestController
+  def initialize
+    $logger.info("Initializing: #{Module.nesting.first}")
+  end
+
   def call(env)
-    MyRackApplication.logger.info("#{self.class}: initialize")
     route = MyRackApplication.router.route_for(env)
     if route
       response = route.execute(env)
