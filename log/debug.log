@@ -1,0 +1,4 @@
+I, [2017-03-18T22:37:32.477796 #10428]  INFO -- : Required: custom.rb
+I, [2017-03-18T22:37:32.477944 #10428]  INFO -- : 1 Initializing: Custom
+I, [2017-03-18T22:37:32.477982 #10428]  INFO -- : 2 Initializing: Custom
+I, [2017-03-18T22:37:32.478016 #10428]  INFO -- : Initializing: Response
